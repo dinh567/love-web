@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --font-serif: var(--font-dancing-script), ui-serif, Georgia, Cambria,
+    "Times New Roman", Times, serif;
+}
+
+:root {
+  --background: #fff5f7;
+  --foreground: #4a0415;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: var(--font-sans);
+}
+
+.heart-animation {
+  position: fixed;
+  pointer-events: none;
+  z-index: 0;
+}
