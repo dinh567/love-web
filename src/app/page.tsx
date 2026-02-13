@@ -125,7 +125,7 @@ export default function ValentineProposal() {
               <p className="font-serif text-2xl md:text-4xl text-gray-700 leading-relaxed drop-shadow-sm">
                 "Trước hết thì anh muốn cảm ơn cục dàng đã đến với cuộc đời của anh nhé<br />
                 Do tụi mình yêu xa nên anh cũng chưa thể tặng socola hay một món quà cho bé được<br />
-                Vậy nên anh đã làm có bé một bất ngờ này hi vọng bé sẽ thích🥺<br />
+                Vậy nên anh đã làm cho bé một bất ngờ này hi vọng bé sẽ thích🥺<br />
                 Chúc bé có một ngày Valentine thật là vui vẻ nho anh iu bé nhiều lúm cục dàng của anh💖"
               </p>
             </div>
@@ -136,7 +136,7 @@ export default function ValentineProposal() {
               transition={{ delay: 1 }}
               className="mt-8 text-pink-500 font-medium"
             >
-              À anh còn tặng bé ít quân huy nò tích lại mua skin nhó😊💝
+              Moa Moa Moa 😘
             </motion.div>
           </motion.div>
         )}
@@ -144,3 +144,4 @@ export default function ValentineProposal() {
     </main>
   );
 }
+
